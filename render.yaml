@@ -3,7 +3,8 @@ services:
     name: n8n
     env: docker
     repo: https://github.com/AlexInnovation/n8n-render
-    image: docker.n8n.io/n8nio/n8n
+    image:
+      image: docker.n8n.io/n8nio/n8n
     envVars:
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
